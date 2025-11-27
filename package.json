@@ -1,0 +1,26 @@
+{
+  "name": "fake-ml-generator",
+  "version": "1.0.0",
+  "description": "Fake ML Profile Generator with Rate Limiting",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "ml",
+    "mobile-legends",
+    "generator",
+    "fake-profile",
+    "vercel"
+  ],
+  "author": "Ditzz",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
